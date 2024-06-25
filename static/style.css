@@ -92,7 +92,7 @@ body {
 }
 
 section#inicio {
-  background-image: url(./img/foto-banner-inicio2.jpg);
+  background-image: url(./img/foto-banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -156,4 +156,23 @@ i.menu-mobile {
   #main {
     margin-left: 0;
   }
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  width: 12px;
+  box-shadow: inset 0 0 0.3rem #00000050;
+  background-color: #fff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #252c90;
+  border-radius: 5%;
+}
+
+.section-bg {
+  background-color: #eff5ff;
 }
